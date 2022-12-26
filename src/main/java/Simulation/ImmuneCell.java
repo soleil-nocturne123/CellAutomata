@@ -7,10 +7,6 @@ import java.util.HashMap;
 
 import static Util.Calculator.indexFromCoord;
 
-/**
- * The immune cell! It kills cancer, and has a chance to attack multiple cancer cells per turn!
- */
-
 public class ImmuneCell extends Cell{
     /* CONSTRUCTORS */
     // Default constructor

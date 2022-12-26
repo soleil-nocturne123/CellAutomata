@@ -1,11 +1,7 @@
 package Simulation;
 
-
 import Util.Pair;
 
-/**
- * This cell is dead and does nothing
- */
 public class DeadCell extends Cell{
     /* CONSTRUCTORS */
     // Default constructor

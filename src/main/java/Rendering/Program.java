@@ -1,3 +1,5 @@
+/* PROGRAM SETUP AND RUN */
+
 package Rendering;
 
 import Simulation.Logic;
@@ -6,15 +8,10 @@ import Util.Pair;
 
 import javax.swing.*;
 
-/**
- * This handles the little window you see, and updating it every "frame"
- * You can edit this to change framerate if you would like
- */
-
 public class Program {
 
     long timeSinceLastUpdate = 0;
-    private final long FRAME_TIME = (long)((1.0/100000000000000.0)*1000000000.0); // set the denominator to desired frame rate (10 by default)
+    private final long FRAME_TIME = (long)((1.0/10.0)*1000000000.0); // set the denominator to desired frame rate (10 by default)
 
     private int width;
     private int height;
@@ -35,8 +32,8 @@ public class Program {
     }
 
     /**
-     * Initiliazes stuff rendiering an each pixel on the screen. You can modify
-     * the width and height if you want, but this will increase sim time!
+     * Initialize time and panel
+     * Render the panel over time
      */
     private void onUserStart(){
         // YOU CAN EDIT THESE

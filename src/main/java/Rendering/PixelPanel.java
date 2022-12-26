@@ -1,10 +1,4 @@
-/**
- *
- *
- * DONT TOUCH THIS PLEASE
- *
- *
- */
+/* PANEL DISPLAY */
 
 package Rendering;
 
@@ -14,10 +8,6 @@ import Util.Pair;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
-
-/**
- * This is a pixel panel. Basically it is just the set of pixels we render to the screen, nothing crazy
- */
 
 public class PixelPanel extends JPanel {
 
@@ -67,7 +57,6 @@ public class PixelPanel extends JPanel {
 
     /**
      * Return the number of pixels on the screen
-     * @return read above
      */
     public int canvasSize(){
         return(width*height);
