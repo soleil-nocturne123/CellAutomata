@@ -1,0 +1,1 @@
+The model is taken from AN INTRODUCTION TO CELLULAR AUTOMATA MODELS WITH CELL-DEVS by Gabriel A. Wainer (Link: https://cell-devs.sce.carleton.ca/publications/2019/Wai19a/TUTORIAL-WSC19.pdf)
